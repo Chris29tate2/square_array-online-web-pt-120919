@@ -1,7 +1,6 @@
 def square_array(Array)
-  pp array 
+  results = []
   
-  counter = log10
-  
-  while array [counter] do
-end
+  array.each do |number|
+    results << (number*number)
+end  
